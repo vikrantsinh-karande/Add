@@ -12,7 +12,11 @@ public class Addition
 		
 		ans = x+y;
 		
-		System.out.println("Answer of " + x + " And "+y+" is = " + ans);
+		System.out.println("Answer of " + x + " + "+y+" is = " + ans);
+		
+		double subs = x - y;
+		
+		System.out.println("Answer of " + x + " - "+y+" is = " + subs);
 	}
 
 }
